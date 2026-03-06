@@ -1,0 +1,272 @@
+{
+  "system": {
+    "arch": "el8_amd64",
+    "allowed_arches": ["slc7_amd64", "el8_amd64"],
+    "hasGPU": true,
+    "github_proxy_env_cmds": [],
+    "github_proxy_setup_cmd": [],
+    "cuda_vis_devices": "0,1",
+    "jobs": 8,
+    "threads": 32,
+    "streams": 24
+  },
+  "oidc": {
+    "issuer": "https://auth.cern.ch/auth/realms/cern",
+    "jwks_uri": "https://auth.cern.ch/auth/realms/cern/protocol/openid-connect/certs",
+    "client_id": "timing_server",
+    "api_client_id": "cms-tsg-frontend-client",
+    "api_token_url": "https://auth.cern.ch/auth/realms/cern/api-access/token"
+  },
+  "samples": {
+    "timing": {
+      "L1Menu_Collisions2024_v1_3_0-d1_xml": {
+        "Run2024": {
+          "Run383631": {
+            "description": "HLT Physics skim 383631 LS 476-479 (ave pu = ~64)",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2024_v1_3_0_Run383631_PU64_RAW.list",
+            "isEDM": false,
+            "runnr": 383631
+          },
+          "Run386593": {
+            "description": "HLT Physics skim 386593 LS 94-99 (ave pu = ~64)",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2024_v1_3_0_Run386593_PU64_RAW.list",
+            "isEDM": false,
+            "runnr": 386593
+          },
+          "Run386753": {
+            "description": "HLT Physics skim 386753 LS  923-967 (ave pu = ~7)",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2024_v1_3_0_Run386753_PU7_RAW.list",
+            "isEDM": false,
+            "runnr": 386753
+          }
+        }
+      },
+      "L1Menu_Collisions2025_v1_0_0_xml": {
+        "Run2024": {
+          "Run386593": {
+            "description": "ZB skim 386593 with L1 2025 v1_0_0 menu ",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2025_v1_0_0_Run386593_PU64_RAW.list",
+            "isEDM": false,
+            "runnr": 386593
+          }
+        }
+      },
+      "L1Menu_Collisions2025_v1_1_1_xml": {
+        "Run2024": {
+          "Run386593": {
+            "description": "ZB skim 386593 with L1 2025 v1_1_1 menu ",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2025_v1_1_1_Run386593_PU64_RAW.list",
+            "isEDM": false,
+            "runnr": 386593
+          }
+        },
+        "Run2025" :{ 
+          "Run392295_L1DiTau32": {
+            "description": "Ephemeral HLT Physics 392295 with L1 2025 v1_1_1 menu wit L1_DoubleIsoTau32 unprescaled ",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2025_v1_1_1_Run392295_ZB_L1DoubleIsoTau32_RAW.list",
+            "isEDM": false,
+            "runnr": 392295
+          }
+        }
+      },
+      "L1Menu_Collisions2025_v1_1_1-d2_xml": {
+        "Run2025": {
+          "Run392295": {
+            "description": "Ephemeral HLT Physics 392295 with L1 2025 v1_1_1 menu ",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2025_v1_1_1_Run392295_PU68_RAW.list",
+            "isEDM": false,
+            "runnr": 392295
+          },
+          "Run392642": {
+            "description": "Ephemeral HLT Physics 392642 with LS 178-180, PU ~63, L1 2025 v1_1_1 menu ",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2025_v1_1_1_Run392642_PU63_RAW.list",
+            "isEDM": false,
+            "runnr": 392642
+          },
+         "Run393240": {
+            "description": "Ephemeral HLT Physics 393240 with LS 202-213, PU ~63, L1 2025 v1_1_1 menu ",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2025_v1_1_1_Run393240_PU63_RAW.list",
+            "isEDM": false,
+            "runnr": 393240
+          }
+        }
+      },
+      "L1Menu_Collisions2025_v1_2_0-d1_xml": {
+        "Run2025": {
+          "Run394959": {
+            "description": "Ephemeral HLT Physics 394959 with L1 2025 v1_2_0 menu ",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2025_v1_2_0_Run394959_PU63_RAW.list",
+            "isEDM": false,
+            "runnr": 394959
+          }
+        }
+      },
+      "L1Menu_Collisions2025_v1_3_0-d1_xml": {
+        "Run2025": {
+          "Run396102": {
+            "description": "Ephemeral HLT Physics 396102 with L1 2025 v1_3_0 menu ",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2025_v1_3_0_Run396102_PU64_RAW.list",
+            "isEDM": false,
+            "runnr": 396102
+          },
+          "Run398183": {
+            "description": "Ephemeral HLT Physics 398183 with LS 490-530 (58k events), PU ~64, L1 2025 v1_3_0 menu ",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2025_v1_3_0_Run398183_PU64_RAW.list",
+            "isEDM": false,
+            "runnr": 398183
+          }
+        }
+      },
+      "L1Menu_Collisions2026_v1_0_0_xml": {
+        "Run2025": {
+          "Run398183": {
+            "description": "Ephemeral ZeroBias 398183 with LS 134-597 (43k events), PU ~64, L1 2026 v1_0_0 menu.",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2026_v1_0_0_Run398183_PU64_RAW.list",
+            "isEDM": false,
+            "runnr": 398183
+          },
+          "Run398683": {
+            "description": "Special ZeroBias 398683 with LS 310-340 (33k events), PU ~7, L1 2026 v1_0_0 menu ",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2026_v1_0_0_Run398683_PU7_RAW.list",
+            "isEDM": false,
+            "runnr": 398683
+          }
+	}
+      },
+      "L1Menu_Collisions2024_v1_3_0_Run386618_ZB_CicadaEmu_v2p2p0_xml": {
+        "Run2024": {
+          "Run386618": {
+            "description": "ZB skim 386618 LS 1-266 with 2024 v1_3_0 menu in CMSSW_15_0_0_pre3 with custom re-eumlated CICADA (Model v2.2.0) seeds. \nThis is not a menu in the conditions database therefore you need to use `--no-l1-override` and have the L1 correctly set in the menu you wish to run",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2024_v1_3_0_Run386618_ZB_CicadaEmu_v2p2p0.xml",
+            "isEDM": false,
+            "runnr": 386618
+          }
+        }
+      },
+      "L1Menu_Collisions2024_v1_3_0_AXOv5_test": {
+        "Run2024": {
+          "Run386593": {
+            "description": "ZB skim of Run2024I EphemeralZeroBias0 with L1Menu_Collisions2024_v1_3_0_AXOv5_test menu in CMSSW_15_0_1 with re-emulated AXO NNv5 seeds. \n 3575 lumis, 29495 events,\nThis is not a menu in the conditions database therefore you need to use --no-l1-override and have the L1 correctly set in the menu you wish to run",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Collisions2024_v1_3_0_AXOv5_test_Run386593.list",
+            "isEDM": false,
+            "runnr": 386593
+          }
+        }
+      },
+      "L1Menu_CollisionsHeavyIons2023_v1_1_5_xml": {
+        "Run2023": {
+          "Run375790": {
+            "description": "2023 HI data (375790, peakMB physics rate) ",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_CollisionsHeavyIons2023_v1_1_5_Run375790.list",
+            "isEDM": false,
+            "runnr": 375790
+          }
+        }
+      },
+      "L1Menu_CollisionsHeavyIons2024_v1_0_3_xml": {
+        "Run2024": {
+          "Run375665": {
+            "description": "prescale column designed for the peak lumi levelling at 6.4E27 cm-2 Hz, sample skimmed from 2023 PbPb HIEphemeral zero bias dasaset",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_CollisionsHeavyIons2024_v1_0_3_Run375665.list",
+            "isEDM": false,
+            "runnr": 375665
+          }
+        }
+      },
+      "L1Menu_Phase2_1420pre1": {
+        "Phase2Spring24": {
+          "TTBar-PU200": {
+            "description": "500 TTBar events at PU200 skimmed with L1 Menu as default in 14_2_0_pre1, sample is originally /TT_TuneCP5_14TeV-powheg-pythia8/Phase2Spring24DIGIRECOMiniAOD-PU200_AllTP_140X_mcRun4_realistic_v4-v1/GEN-SIM-DIGI-RAW-MINIAOD",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Phase2_1420pre1_Phase2Spring24_TTBar-PU200.list",
+            "isEDM": true
+          },
+          "MinBias-PU200": {
+            "description": "900 MinimumBias events at PU200 skimmed with L1 Menu as default in 14_2_0_pre1",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Phase2_1420pre1_Phase2Spring24_RelValMinBias-PU200.list",
+            "isEDM": true
+          }
+        }
+      },
+      "L1Menu_Phase2_1500": {
+        "Phase2C17I13M9_ExtendedRun4D110": {
+          "TTBar-PU200": {
+            "description": "1000 TTBar events at PU200 skimmed with L1 Menu as default in 15_0_0, 141X_mcRun4_realistic_v3 sample is originally /TT_TuneCP5_14TeV-powheg-pythia8/Phase2Spring24DIGIRECOMiniAOD-PU200_AllTP_140X_mcRun4_realistic_v4-v1/GEN-SIM-DIGI-RAW-MINIAOD",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Phase2_1500_Phase2Spring24_TTBar-PU200.list",
+            "isEDM": true
+          },
+	  "DYMM-PU200": {
+            "description": "1000 DYto2Mu events at PU200 skimmed with L1 Menu as default in 16_0_0",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/L1Menu_Phase2_1500_Phase2Spring24_DYMM-PU200.list",
+            "isEDM": true
+          }
+        }
+      }
+    },
+    "validation": {
+      "CMSSW_13_1_0_pre2": {
+        "MC2022": {
+          "Standard": {
+            "description": "Standard Validation Sample",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/validation/CMSSW_1310pre2_Standard.list",
+            "isEDM": true
+          }
+        }
+      },
+
+      "CMSSW_14_1_0_pre2": {
+        "Phase2C17I13M9_Extended2026D98": {
+          "Standard": {
+            "description": "Standard Validation Sample",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/validation/CMSSW_1410pre2_Phase2C17I13M9_Standard.list",
+            "isEDM": true
+          },
+          "ZpToEE": {
+            "description": "Standard Validation Sample",
+            "filelist": "timingserver/input_filelists/srv-b1b07-16-01/validation/CMSSW_1410pre2_Test.list",
+            "isEDM": true
+          }
+        }
+      },
+      "CMSSW_14_1_0_pre5": {
+        "Phase2C17I13M9_Extended2026D110": {
+          "Standard": {
+            "cfg": "timingserver/input_filelists/srv-b1b07-16-01/validation/CMSSW_1410pre5_Phase2C17I13M9_Extended2026D110_Standard.json"
+          }
+        }
+      },
+      "CMSSW_14_1_0_pre7": {
+        "Phase2C17I13M9_Extended2026D110": {
+          "Standard": {
+            "cfg": "timingserver/input_filelists/srv-b1b07-16-01/validation/CMSSW_1410pre7_Phase2C17I13M9_Extended2026D110_Standard.json"
+          }
+        }
+      },
+      "CMSSW_14_2_0_pre4": {
+        "Phase2C17I13M9_ExtendedRun4D110": {
+          "Standard": {
+            "cfg": "timingserver/input_filelists/srv-b1b07-16-01/validation/CMSSW_1420pre4_Phase2C17I13M9_ExtendedRun4D110_Standard.json"
+          }
+        }
+      },
+      "CMSSW_15_1_0_pre3": {
+        "Phase2C17I13M9_ExtendedRun4D110": {
+          "Standard": {
+            "cfg": "timingserver/input_filelists/srv-b1b07-16-01/validation/CMSSW_15_1_0_pre3_Phase2C17I13M9_ExtendedRun4D110_Standard.json"
+          }
+        }
+      }
+    }
+  },
+  "default_sample": {
+    "timing": {
+      "l1menu": "L1Menu_Collisions2025_v1_3_0-d1_xml",
+      "evt_type": "Run2025",
+      "sample": "Run398183"
+    },
+    "validation": {
+      "l1menu": "CMSSW_13_1_0_pre2",
+      "evt_type": "MC2022",
+      "sample": "Standard"
+    }
+  }
+}

@@ -15,11 +15,15 @@ cmsrel CMSSW_16_0_0_pre4
 cd CMSSW_16_0_0_pre4/src
 
 git clone https://github.com/BlancoFS/timing_ifca.git
-git clone --recursively https://gitlab.cern.ch/cms-tsg/steam/timing.git
+git clone --recursive https://gitlab.cern.ch/cms-tsg/steam/timing.git
 
-cp run_benchmark.py timing/timingserver/scripts/
-cp run_harvesting.py timing/timingserver/scripts/
-cp multirun.py timing/patatrack-scripts/
+cp timing_ifca/run_benchmark.py timing/timingserver/scripts/
+cp timing_ifca/run_harvesting.py timing/timingserver/scripts/
+cp timing_ifca/multirun.py timing/patatrack-scripts/
+cp timing_ifca/dumpConfig.py ./
+cp timing_ifca/runTiming.sh ./
+cp timing_ifca/L1Menu_Phase2_1500_Phase2Spring24_DYMM-PU200.list ../../SingleIterLuca/CMSSW_16_0_0_pre4/src/timing/timingserver/input_filelists/srv-b1b07-16-01/
+cp timing_ifca/srv-b1b07-16-01.json ../../SingleIterLuca/CMSSW_16_0_0_pre4/src/timing/timingserver/cfgs/
 ```
 
 ## Activate environment
