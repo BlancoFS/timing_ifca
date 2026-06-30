@@ -7,6 +7,14 @@ This repository contains the instructions and scripts to run CMSSW HLT timing st
 srun --partition wncmsgpu --pty -N 1 -n 1 -c 42 /bin/bash
 ```
 
+or, possibly:
+
+```bash
+srun --gres=gpu:a30:i --account=cms --partition=wngpu --pty /bin/bash
+```
+
+Where i is a number from 1 to 8 corresponding to the GPU numbering scheme.
+
 ## First time you use it
 
 ```bash
